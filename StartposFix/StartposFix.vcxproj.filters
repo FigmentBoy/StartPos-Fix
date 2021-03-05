@@ -16,6 +16,9 @@
     <Filter Include="MinHook">
       <UniqueIdentifier>{5f1a269c-0b0e-40e5-8f09-aea13da91f8f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Capuccino-SDK">
+      <UniqueIdentifier>{486222fb-8820-4c77-bc72-03f05d608147}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
@@ -24,16 +27,1186 @@
     <ClCompile Include="PlayLayer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\cappuccino-sdk\incl\cocos2dx\ccFPSImages.c">
+      <Filter>Capuccino-SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cappuccino-sdk\incl\cocos2dx\custom\Sprites\CCMenuItemSpriteExtra\CCMenuItemSpriteExtra.cpp">
+      <Filter>Capuccino-SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cappuccino-sdk\incl\cocos2dx\kazmath\src\aabb.c">
+      <Filter>Capuccino-SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cappuccino-sdk\incl\cocos2dx\kazmath\src\GL\mat4stack.c">
+      <Filter>Capuccino-SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cappuccino-sdk\incl\cocos2dx\kazmath\src\GL\matrix.c">
+      <Filter>Capuccino-SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cappuccino-sdk\incl\cocos2dx\kazmath\src\mat3.c">
+      <Filter>Capuccino-SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cappuccino-sdk\incl\cocos2dx\kazmath\src\mat4.c">
+      <Filter>Capuccino-SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cappuccino-sdk\incl\cocos2dx\kazmath\src\neon_matrix_impl.c">
+      <Filter>Capuccino-SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cappuccino-sdk\incl\cocos2dx\kazmath\src\plane.c">
+      <Filter>Capuccino-SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cappuccino-sdk\incl\cocos2dx\kazmath\src\quaternion.c">
+      <Filter>Capuccino-SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cappuccino-sdk\incl\cocos2dx\kazmath\src\ray2.c">
+      <Filter>Capuccino-SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cappuccino-sdk\incl\cocos2dx\kazmath\src\utility.c">
+      <Filter>Capuccino-SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cappuccino-sdk\incl\cocos2dx\kazmath\src\vec2.c">
+      <Filter>Capuccino-SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cappuccino-sdk\incl\cocos2dx\kazmath\src\vec3.c">
+      <Filter>Capuccino-SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cappuccino-sdk\incl\cocos2dx\kazmath\src\vec4.c">
+      <Filter>Capuccino-SDK</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MinHook.h">
       <Filter>MinHook</Filter>
     </ClInclude>
-    <ClInclude Include="Checkpoint.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="PlayLayer.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\actions\CCAction.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\actions\CCActionCamera.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\actions\CCActionCatmullRom.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\actions\CCActionEase.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\actions\CCActionGrid.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\actions\CCActionGrid3D.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\actions\CCActionInstant.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\actions\CCActionInterval.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\actions\CCActionManager.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\actions\CCActionPageTurn3D.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\actions\CCActionProgressTimer.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\actions\CCActionTiledGrid.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\actions\CCActionTween.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\base_nodes\CCAtlasNode.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\base_nodes\CCGLBufferedNode.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\base_nodes\CCNode.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\CCCamera.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\CCConfiguration.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\CCDirector.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\ccFPSImages.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\CCScheduler.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\cocoa\CCAffineTransform.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\cocoa\CCArray.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\cocoa\CCAutoreleasePool.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\cocoa\CCBool.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\cocoa\CCDataVisitor.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\cocoa\CCDictionary.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\cocoa\CCDouble.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\cocoa\CCFloat.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\cocoa\CCGeometry.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\cocoa\CCInteger.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\cocoa\CCNS.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\cocoa\CCObject.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\cocoa\CCSet.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\cocoa\CCString.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\cocoa\CCZone.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\custom\Delegates\CCKeyboardDelegate.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\custom\Delegates\CCMouseDelegate.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\custom\Sprites\CCMenuItemSpriteExtra\CCMenuItemSpriteExtra.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\custom\Sprites\CCSpriteExtra\CCSpriteExtra.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\draw_nodes\CCDrawingPrimitives.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\draw_nodes\CCDrawNode.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\effects\CCGrabber.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\effects\CCGrid.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\include\ccConfig.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\include\CCEventType.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\include\ccMacros.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\include\CCProtocols.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\include\ccTypeInfo.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\include\ccTypes.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\include\cocos2d.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\kazmath\include\kazmath\aabb.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\kazmath\include\kazmath\GL\mat4stack.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\kazmath\include\kazmath\GL\matrix.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\kazmath\include\kazmath\kazmath.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\kazmath\include\kazmath\mat3.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\kazmath\include\kazmath\mat4.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\kazmath\include\kazmath\neon_matrix_impl.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\kazmath\include\kazmath\plane.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\kazmath\include\kazmath\quaternion.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\kazmath\include\kazmath\ray2.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\kazmath\include\kazmath\utility.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\kazmath\include\kazmath\vec2.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\kazmath\include\kazmath\vec3.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\kazmath\include\kazmath\vec4.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\keypad_dispatcher\CCKeypadDelegate.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\keypad_dispatcher\CCKeypadDispatcher.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\label_nodes\CCLabelAtlas.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\label_nodes\CCLabelBMFont.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\label_nodes\CCLabelTTF.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\layers_scenes_transitions_nodes\CCLayer.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\layers_scenes_transitions_nodes\CCScene.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\layers_scenes_transitions_nodes\CCTransition.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\layers_scenes_transitions_nodes\CCTransitionPageTurn.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\layers_scenes_transitions_nodes\CCTransitionProgress.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\menu_nodes\CCMenu.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\menu_nodes\CCMenuItem.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\misc_nodes\CCClippingNode.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\misc_nodes\CCMotionStreak.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\misc_nodes\CCProgressTimer.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\misc_nodes\CCRenderTexture.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\particle_nodes\CCParticleBatchNode.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\particle_nodes\CCParticleExamples.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\particle_nodes\CCParticleSystem.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\particle_nodes\CCParticleSystemQuad.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\particle_nodes\firePngData.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\CCAccelerometerDelegate.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\CCApplicationProtocol.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\CCCommon.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\CCDevice.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\CCEGLViewProtocol.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\CCFileUtils.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\CCImage.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\CCImageCommon_cpp.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\CCPlatformConfig.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\CCPlatformMacros.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\CCSAXParser.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\CCThread.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\platform.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\third_party\win32\curl\curl.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\third_party\win32\curl\curlbuild.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\third_party\win32\curl\curlrules.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\third_party\win32\curl\curlver.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\third_party\win32\curl\easy.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\third_party\win32\curl\mprintf.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\third_party\win32\curl\multi.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\third_party\win32\curl\stdcheaders.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\third_party\win32\curl\typecheck-gcc.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\third_party\win32\iconv\iconv.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\third_party\win32\libjpeg\jconfig.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\third_party\win32\libjpeg\jconfig_linux.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\third_party\win32\libjpeg\jconfig_win.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\third_party\win32\libjpeg\jerror.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\third_party\win32\libjpeg\jmorecfg.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\third_party\win32\libjpeg\jpeglib.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\third_party\win32\libpng\png.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\third_party\win32\libpng\pngconf.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\third_party\win32\libtiff\tiff.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\third_party\win32\libtiff\tiffconf.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\third_party\win32\libtiff\tiffio.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\third_party\win32\libtiff\tiffvers.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\third_party\win32\libwebp\decode.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\third_party\win32\libwebp\encode.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\third_party\win32\libwebp\types.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\third_party\win32\OGLES\GL\glew.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\third_party\win32\OGLES\GL\glxew.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\third_party\win32\OGLES\GL\wglew.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\third_party\win32\pthread\pthread.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\third_party\win32\pthread\sched.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\third_party\win32\pthread\semaphore.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\third_party\win32\zlib\zconf.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\third_party\win32\zlib\zlib.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\win32\CCAccelerometer.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\win32\CCApplication.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\win32\CCEGLView.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\win32\CCFileUtilsWin32.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\win32\CCGL.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\win32\CCPlatformDefine.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\win32\CCStdC.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\platform\win32\compat\stdint.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\script_support\CCScriptSupport.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\shaders\CCGLProgram.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\shaders\ccGLStateCache.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\shaders\CCShaderCache.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\shaders\ccShaderEx_SwitchMask_frag.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\shaders\ccShaders.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\shaders\ccShader_PositionColorLengthTexture_frag.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\shaders\ccShader_PositionColorLengthTexture_vert.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\shaders\ccShader_PositionColor_frag.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\shaders\ccShader_PositionColor_vert.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\shaders\ccShader_PositionTextureA8Color_frag.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\shaders\ccShader_PositionTextureA8Color_vert.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\shaders\ccShader_PositionTextureColorAlphaTest_frag.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\shaders\ccShader_PositionTextureColor_frag.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\shaders\ccShader_PositionTextureColor_vert.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\shaders\ccShader_PositionTexture_frag.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\shaders\ccShader_PositionTexture_uColor_frag.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\shaders\ccShader_PositionTexture_uColor_vert.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\shaders\ccShader_PositionTexture_vert.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\shaders\ccShader_Position_uColor_frag.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\shaders\ccShader_Position_uColor_vert.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\sprite_nodes\CCAnimation.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\sprite_nodes\CCAnimationCache.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\sprite_nodes\CCSprite.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\sprite_nodes\CCSpriteBatchNode.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\sprite_nodes\CCSpriteFrame.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\sprite_nodes\CCSpriteFrameCache.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\support\base64.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\support\CCNotificationCenter.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\support\CCPointExtension.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\support\CCProfiling.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\support\ccUTF8.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\support\ccUtils.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\support\CCVertex.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\support\component\CCComponent.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\support\component\CCComponentContainer.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\support\data_support\ccCArray.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\support\data_support\uthash.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\support\data_support\utlist.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\support\image_support\TGAlib.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\support\tinyxml2\tinyxml2.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\support\TransformUtils.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\support\user_default\CCUserDefault.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\support\zip_support\ioapi.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\support\zip_support\unzip.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\support\zip_support\ZipUtils.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\textures\CCTexture2D.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\textures\CCTextureAtlas.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\textures\CCTextureCache.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\textures\CCTextureETC.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\textures\CCTexturePVR.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\text_input_node\CCIMEDelegate.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\text_input_node\CCIMEDispatcher.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\text_input_node\CCTextFieldTTF.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\tilemap_parallax_nodes\CCParallaxNode.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\tilemap_parallax_nodes\CCTileMapAtlas.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\tilemap_parallax_nodes\CCTMXLayer.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\tilemap_parallax_nodes\CCTMXObjectGroup.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\tilemap_parallax_nodes\CCTMXTiledMap.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\tilemap_parallax_nodes\CCTMXXMLParser.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\touch_dispatcher\CCTouch.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\touch_dispatcher\CCTouchDelegateProtocol.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\touch_dispatcher\CCTouchDispatcher.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\cocos2dx\touch_dispatcher\CCTouchHandler.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\AssetsManager\AssetsManager.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CCBReader\CCBAnimationManager.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CCBReader\CCBFileLoader.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CCBReader\CCBKeyframe.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CCBReader\CCBMemberVariableAssigner.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CCBReader\CCBReader.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CCBReader\CCBSelectorResolver.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CCBReader\CCBSequence.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CCBReader\CCBSequenceProperty.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CCBReader\CCBValue.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CCBReader\CCControlButtonLoader.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CCBReader\CCControlLoader.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CCBReader\CCData.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CCBReader\CCLabelBMFontLoader.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CCBReader\CCLabelTTFLoader.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CCBReader\CCLayerColorLoader.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CCBReader\CCLayerGradientLoader.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CCBReader\CCLayerLoader.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CCBReader\CCMenuItemImageLoader.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CCBReader\CCMenuItemLoader.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CCBReader\CCMenuLoader.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CCBReader\CCNode+CCBRelativePositioning.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CCBReader\CCNodeLoader.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CCBReader\CCNodeLoaderLibrary.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CCBReader\CCNodeLoaderListener.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CCBReader\CCParticleSystemQuadLoader.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CCBReader\CCScale9SpriteLoader.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CCBReader\CCScrollViewLoader.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CCBReader\CCSpriteLoader.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\cocos-ext.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Action\CCActionEaseEx.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Action\CCActionFrame.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Action\CCActionFrameEasing.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Action\CCActionManager.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Action\CCActionNode.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Action\CCActionObject.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Armature\animation\CCArmatureAnimation.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Armature\animation\CCProcessBase.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Armature\animation\CCTween.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Armature\CCArmature.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Armature\CCBone.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Armature\datas\CCDatas.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Armature\display\CCBatchNode.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Armature\display\CCDecorativeDisplay.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Armature\display\CCDisplayFactory.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Armature\display\CCDisplayManager.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Armature\display\CCSkin.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Armature\external_tool\sigslot.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Armature\physics\CCColliderDetector.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Armature\utils\CCArmatureDataManager.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Armature\utils\CCArmatureDefine.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Armature\utils\CCDataReaderHelper.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Armature\utils\CCSpriteFrameCacheHelper.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Armature\utils\CCTransformHelp.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Armature\utils\CCTweenFunction.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Armature\utils\CCUtilMath.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Components\CCComAttribute.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Components\CCComAudio.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Components\CCComBase.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Components\CCComController.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Components\CCComRender.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Components\CCInputDelegate.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\GUI\BaseClasses\UIWidget.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\GUI\Layouts\UILayout.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\GUI\Layouts\UILayoutDefine.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\GUI\Layouts\UILayoutParameter.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\GUI\System\CocosGUI.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\GUI\System\GUIDefine.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\GUI\System\UIHelper.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\GUI\System\UITouchGroup.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\GUI\UIWidgets\Compatible\CompatibleClasses.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\GUI\UIWidgets\ScrollWidget\UIListView.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\GUI\UIWidgets\ScrollWidget\UIPageView.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\GUI\UIWidgets\ScrollWidget\UIScrollInterface.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\GUI\UIWidgets\ScrollWidget\UIScrollView.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\GUI\UIWidgets\UIButton.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\GUI\UIWidgets\UICheckBox.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\GUI\UIWidgets\UIImageView.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\GUI\UIWidgets\UILabel.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\GUI\UIWidgets\UILabelAtlas.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\GUI\UIWidgets\UILabelBMFont.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\GUI\UIWidgets\UILoadingBar.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\GUI\UIWidgets\UIRichText.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\GUI\UIWidgets\UISlider.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\GUI\UIWidgets\UITextField.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Json\DictionaryHelper.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Json\rapidjson\document.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Json\rapidjson\filestream.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Json\rapidjson\internal\pow10.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Json\rapidjson\internal\stack.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Json\rapidjson\internal\strfunc.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Json\rapidjson\prettywriter.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Json\rapidjson\rapidjson.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Json\rapidjson\reader.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Json\rapidjson\stringbuffer.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Json\rapidjson\writer.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Reader\GUIReader.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Reader\SceneReader.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Reader\WidgetReader\ButtonReader\ButtonReader.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Reader\WidgetReader\CheckBoxReader\CheckBoxReader.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Reader\WidgetReader\ImageViewReader\ImageViewReader.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Reader\WidgetReader\LabelAtlasReader\LabelAtlasReader.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Reader\WidgetReader\LabelBMFontReader\LabelBMFontReader.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Reader\WidgetReader\LabelReader\LabelReader.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Reader\WidgetReader\LayoutReader\LayoutReader.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Reader\WidgetReader\ListViewReader\ListViewReader.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Reader\WidgetReader\LoadingBarReader\LoadingBarReader.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Reader\WidgetReader\PageViewReader\PageViewReader.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Reader\WidgetReader\ScrollViewReader\ScrollViewReader.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Reader\WidgetReader\SliderReader\SliderReader.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Reader\WidgetReader\TextFieldReader\TextFieldReader.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Reader\WidgetReader\WidgetReader.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Reader\WidgetReader\WidgetReaderProtocol.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Trigger\ObjectFactory.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Trigger\TriggerBase.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Trigger\TriggerMng.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\CocoStudio\Trigger\TriggerObj.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\ExtensionMacros.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\GUI\CCControlExtension\CCControl.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\GUI\CCControlExtension\CCControlButton.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\GUI\CCControlExtension\CCControlColourPicker.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\GUI\CCControlExtension\CCControlExtensions.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\GUI\CCControlExtension\CCControlHuePicker.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\GUI\CCControlExtension\CCControlPotentiometer.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\GUI\CCControlExtension\CCControlSaturationBrightnessPicker.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\GUI\CCControlExtension\CCControlSlider.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\GUI\CCControlExtension\CCControlStepper.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\GUI\CCControlExtension\CCControlSwitch.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\GUI\CCControlExtension\CCControlUtils.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\GUI\CCControlExtension\CCInvocation.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\GUI\CCControlExtension\CCScale9Sprite.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\GUI\CCEditBox\CCEditBox.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\GUI\CCEditBox\CCEditBoxImpl.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\GUI\CCEditBox\CCEditBoxImplAndroid.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\GUI\CCEditBox\CCEditBoxImplIOS.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\GUI\CCEditBox\CCEditBoxImplMac.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\GUI\CCEditBox\CCEditBoxImplTizen.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\GUI\CCEditBox\CCEditBoxImplWin.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\GUI\CCEditBox\CCEditBoxImplWp8.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\GUI\CCScrollView\CCScrollView.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\GUI\CCScrollView\CCSorting.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\GUI\CCScrollView\CCTableView.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\GUI\CCScrollView\CCTableViewCell.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\LocalStorage\LocalStorage.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\network\HttpClient.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\network\HttpRequest.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\network\HttpResponse.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\network\WebSocket.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\physics_nodes\CCPhysicsDebugNode.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\physics_nodes\CCPhysicsSprite.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\spine\Animation.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\spine\AnimationState.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\spine\AnimationStateData.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\spine\Atlas.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\spine\AtlasAttachmentLoader.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\spine\Attachment.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\spine\AttachmentLoader.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\spine\Bone.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\spine\BoneData.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\spine\CCSkeleton.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\spine\CCSkeletonAnimation.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\spine\extension.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\spine\Json.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\spine\RegionAttachment.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\spine\Skeleton.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\spine\SkeletonData.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\spine\SkeletonJson.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\spine\Skin.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\spine\Slot.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\spine\SlotData.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\spine\spine-cocos2dx.h">
+      <Filter>Capuccino-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cappuccino-sdk\incl\extensions\spine\spine.h">
+      <Filter>Capuccino-SDK</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

@@ -1,5 +1,4 @@
 #pragma once
-#include "Checkpoint.h"
 #include "MinHook.h"
 
 namespace PlayLayer {
@@ -17,7 +16,6 @@ namespace PlayLayer {
 
 	void mem_init();
 
-	extern CheckPoint checkpoint;
 	extern bool inPractice;
 	extern bool inTestmode;
 	extern int smoothOut;

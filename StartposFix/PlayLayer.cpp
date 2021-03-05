@@ -12,7 +12,6 @@ void WriteBytes(void* location, std::vector<BYTE> bytes) {
 }
 
 namespace PlayLayer {
-	CheckPoint checkpoint;
 	bool inPractice;
 	bool inTestmode;
 	int smoothOut;
@@ -25,7 +24,6 @@ namespace PlayLayer {
 		inTestmode = *(bool*)((uintptr_t)self + 0x494);
 		smoothOut = 0;
 
-		checkpoint = CheckPoint::from(self);
 
 		return res;
 	}
