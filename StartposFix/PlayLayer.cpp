@@ -39,7 +39,7 @@ namespace PlayLayer {
 	}
 
 	int __fastcall hkResetLevel(void* self) {
-		if (inTestmode && !inPractice) {
+		if (inTestmode || inPractice) {
 			smoothOut = 2; // Account for 1 extra frame respawn
 		}
 		return resetLevel(self);

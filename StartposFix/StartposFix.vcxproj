@@ -111,8 +111,8 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <Optimization>Disabled</Optimization>
       <AdditionalIncludeDirectories>$(SolutionDir)cappuccino-sdk\incl\cocos2dx;$(SolutionDir)cappuccino-sdk\incl\cocos2dx\include;$(SolutionDir)cappuccino-sdk\incl\cocos2dx\kazmath\include;$(SolutionDir)cappuccino-sdk\incl\cocos2dx\platform\win32;$(SolutionDir)cappuccino-sdk\incl\cocos2dx\platform\third_party\win32;$(SolutionDir)cappuccino-sdk\incl\cocos2dx\platform\third_party\win32\OGLES;$(SolutionDir)cappuccino-sdk\incl\extensions;</AdditionalIncludeDirectories>
+      <Optimization>Disabled</Optimization>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
